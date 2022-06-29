@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Proctoring</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../Front-End/css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="../Front-End/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Front-End/css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="../Front-End/css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="../Front-End/css/Style.css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='fontawesome-free-6.1.1-web/css/all.css') }}"> -->
+
+    <script src="../Front-End/js/Jquery3.4.1.min.js"></script>
+   
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="waviy">
+            <span style="--i:1">T</span>
+            <span style="--i:2">A</span>
+            <span style="--i:3">L</span>
+            <span style="--i:4">E</span>
+            <span style="--i:5">N</span>
+            <span style="--i:6">T</span>
+            <span style="--i:7">L</span>
+            <span style="--i:8">Y</span>
+            <span style="--i:9">T</span>
+            <span style="--i:10">I</span>
+            <span style="--i:11">C</span>
+            <span style="--i:12">A</span> 
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <img src="../Front-End/assets/image 4.png" class="text-gray">
+            </div>
+        </div>
+    </nav>
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+        <section class="site-title">
+            <form action="" id="img-form" method="post" enctype="multipart/form-data" class="site-background">
+                <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                    <h1>Maximal 12 Photos</h1>
+                    <div class="field">
+                        <input type="file" id="files" name="image" multiple class="" required>
+                    </div>
+                </div>
+                
+            </form>
+        </section>
+        <input type="submit" value="submit" id="submit" class="btn2" form="img-form">
+        <!------------x----------- Site Title ----------x----------->
+
+
+        <!-- ---------------------- Site Content -------------------------->
+        <section class="container">
+            <div class="site-content">
+                <div class="post-image">
+                    <article class="foto">
+                        <ul class="image-list-small" id="img-list">
+                            <!-- <li>
+                                <a href="" style="background-image: url('/static/assets/face-not-found.jpg')"></a>
+                                <div class="details">
+                                    <h3><a href="">In the subway</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" style="background-image: url('/static/assets/face-not-found.jpg')"></a>
+                                <div class="details">
+                                    <h3><a href="">In the subway</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" style="background-image: url('/static/assets/face-not-found.jpg')"></a>
+                                <div class="details">
+                                    <h3><a href="">In the subway</a></h3>
+                                </div>
+                            </li> -->
+                        </ul>
+                        
+                    </article>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>SUMMARY</h2>
+                        <ul class="category-list" id="summary">
+                            <!-- <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">angry</a>
+                                <span id="angry">(01)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">sad</a>
+                                <span id="sad">(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">disgusting</a>
+                                <span id="sad">(03)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">natural</a>
+                                <span id="natural">(04)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">happy</a>
+                                <span id="happy">(05)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="600">
+                                <a href="#">surprise</a>
+                                <span id="surprise">(06)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="700">
+                                <a href="#">fear</a>
+                                <span id="fear">(07)</span>
+                            </li> -->
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <!-- -----------x---------- Site Content -------------x------------>
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>Talentlytica is a cloud-based online assessment platform provider for Talent Management needs related to recruitment, assessment centers, online interviews and strategic consulting.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Address</h2>
+                <div class="flex-row">
+                    <p>PT. Global Talentlytica Indonesia Menara Kuningan Lt. 30 Unit B-C Jl. H. Rasuna Said Kav. 5 Karet Kuningan, Setiabudi, Jakarta Selatan - 12940</p>
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <a href="https://www.facebook.com/talentlytica/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/talentlytica"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/talentlytica/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/channel/UCMY0KjnHHrkVhePIrCYBkEQ"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2022 All rights reserved | made by
+                <a target="_black">Team-01 Bangkit <i class=""></i>
+                    Channel</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+
+    <!-- Jquery Library file -->
+    <script src="../Front-End/js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="../Front-End/js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="../Front-End/js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="../Front-End/js/main.js"></script>
+    <script src="../Front-End/js/form.js"></script>
+    <script src="../Front-End/js/upImage.js"></script>
+
+
+</body>
+
+</html>
